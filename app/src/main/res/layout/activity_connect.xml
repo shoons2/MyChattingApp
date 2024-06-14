@@ -5,29 +5,31 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ConnectActivity">
+
+    <EditText
+        android:id="@+id/editConnectIp"
+        android:layout_width="361dp"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="IP address"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179" />
 
     <Button
-        android:id="@+id/btnHost"
-        android:layout_width="367dp"
-        android:layout_height="235dp"
-        android:text="Create Room"
+        android:id="@+id/btnConnect"
+        android:layout_width="289dp"
+        android:layout_height="179dp"
+        android:text="Connect"
         android:textSize="100px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.102" />
-
-    <Button
-        android:id="@+id/btnJoin"
-        android:layout_width="367dp"
-        android:layout_height="235dp"
-        android:text="Join Room"
-        android:textSize="100px"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.797" />
+        app:layout_constraintVertical_bias="0.701" />
 </androidx.constraintlayout.widget.ConstraintLayout>
